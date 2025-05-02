@@ -1,0 +1,32 @@
+{
+  "hero_type": "image",
+  "hero_path": "/static/uploads/hero.jpg",
+  "about_text": "Welcome to House Party Bar & Kitchen \u2014 Hyderabad's most electrifying nightlife destination!",
+  "events": [
+    {
+      "title": "Ladies Night",
+      "date": "Friday",
+      "img": "/static/uploads/event1.jpg"
+    },
+    {
+      "title": "MRP Night",
+      "date": "Saturday",
+      "img": "/static/uploads/event2.jpg"
+    },
+    {
+      "title": "Live DJ",
+      "date": "Sunday",
+      "img": "/static/uploads/event3.jpg"
+    }
+  ],
+  "gallery": [
+    "/static/uploads/gallery1.jpg",
+    "/static/uploads/gallery2.jpg",
+    "/static/uploads/gallery3.jpg"
+  ],
+  "contact": {
+    "address": "Plot No 184, Above Starbucks, Sainikpuri, Hyderabad",
+    "phone": "+91 90904 09909",
+    "email": "info@housepartyhyd.com"
+  }
+}

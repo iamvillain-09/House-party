@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Panel</title>
+</head>
+<body style="font-family:sans-serif; margin:2rem;">
+  <h1>Admin Panel</h1>
+  <form method="POST" enctype="multipart/form-data">
+    <label>Hero Image/Video:</label><br>
+    <input type="file" name="hero"><br><br>
+
+    <label>About Section:</label><br>
+    <textarea name="about" rows="4" cols="50">{{ content.about_text }}</textarea><br><br>
+
+    <label>Address:</label><br>
+    <input type="text" name="address" value="{{ content.contact.address }}"><br>
+    <label>Phone:</label><br>
+    <input type="text" name="phone" value="{{ content.contact.phone }}"><br>
+    <label>Email:</label><br>
+    <input type="text" name="email" value="{{ content.contact.email }}"><br><br>
+
+    <button type="submit">Save</button>
+  </form>
+</body>
+</html>
